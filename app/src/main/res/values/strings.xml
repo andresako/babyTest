@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Babylon test</string>
+    <string name="author">By: %1$s</string>
+    <string name="comments">%1$s comments.</string>
+</resources>
