@@ -1,4 +1,4 @@
-package com.andresmartinez.babylontest.ui
+package com.andresmartinez.babylontest.ui.viewmodels
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
@@ -9,7 +9,6 @@ import com.andresmartinez.babylontest.repository.UsersRepository
 import com.andresmartinez.babylontest.room.entities.PostsEntity
 import com.andresmartinez.babylontest.room.entities.UsersEntity
 import com.andresmartinez.babylontest.utils.Coroutines
-import kotlinx.coroutines.runBlocking
 
 class SecondActivityViewModel(
     private var commentsRepository: CommentsRepository,

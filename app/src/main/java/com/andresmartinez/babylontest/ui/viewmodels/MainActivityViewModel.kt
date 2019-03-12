@@ -1,4 +1,4 @@
-package com.andresmartinez.babylontest.ui
+package com.andresmartinez.babylontest.ui.viewmodels
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

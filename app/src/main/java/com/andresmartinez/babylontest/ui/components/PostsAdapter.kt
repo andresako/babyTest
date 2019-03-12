@@ -1,4 +1,4 @@
-package com.andresmartinez.babylontest.components
+package com.andresmartinez.babylontest.ui.components
 
 import android.view.LayoutInflater
 import android.view.View

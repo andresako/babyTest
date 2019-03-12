@@ -1,8 +1,9 @@
-package com.andresmartinez.babylontest.ui
+package com.andresmartinez.babylontest.ui.activities
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.andresmartinez.babylontest.R
+import com.andresmartinez.babylontest.ui.viewmodels.SecondActivityViewModel
 import kotlinx.android.synthetic.main.activity_second.*
 import org.koin.androidx.viewmodel.ext.android.viewModel
 

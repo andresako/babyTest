@@ -4,7 +4,6 @@ import com.andresmartinez.babylontest.api.ApiService
 import com.andresmartinez.babylontest.api.dto.CommentsDto
 import com.andresmartinez.babylontest.room.dao.CommentsDao
 import com.andresmartinez.babylontest.room.entities.CommentsEntity
-import kotlinx.coroutines.runBlocking
 
 class CommentsRepositoryImpl(val service: ApiService, val dao: CommentsDao) : CommentsRepository {
     override suspend fun getAllComments(forceUpdate: Boolean): List<CommentsEntity> {
@@ -18,7 +17,7 @@ class CommentsRepositoryImpl(val service: ApiService, val dao: CommentsDao) : Co
 
     }
 
-    private suspend fun fetchData(){
+    private suspend fun fetchData() {
         val apiResult = service.getComments().await()
         dao.saveComments(toList(apiResult))
     }

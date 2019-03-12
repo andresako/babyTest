@@ -1,4 +1,4 @@
-package com.andresmartinez.babylontest.ui
+package com.andresmartinez.babylontest.ui.activities
 
 import android.content.Intent
 import android.os.Bundle
@@ -7,8 +7,9 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.andresmartinez.babylontest.R
-import com.andresmartinez.babylontest.components.PostsAdapter
 import com.andresmartinez.babylontest.room.entities.PostsEntity
+import com.andresmartinez.babylontest.ui.components.PostsAdapter
+import com.andresmartinez.babylontest.ui.viewmodels.MainActivityViewModel
 import kotlinx.android.synthetic.main.activity_main.*
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
