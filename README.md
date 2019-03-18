@@ -1,5 +1,4 @@
-Technical test
-================================
+
 ## About
 This app is a simple project.
 The app have two screens, as follows:
