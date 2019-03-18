@@ -67,8 +67,3 @@ Contain all classes related to the Views
 Contain all `ViewModel` classes 
 * `MainActivityViewModel`
 * `SecondActivityViewModel`
-
-## `utils` package
-
-
-To be completed.
